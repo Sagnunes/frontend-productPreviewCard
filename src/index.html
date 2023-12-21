@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Product preview card component</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body class="bg-cream">
+<main class="w-full p-7 md:flex md:items-center h-screen">
+    <div class="flex flex-col mx-auto bg-white rounded-lg shadow-sm overflow-hidden md:w-[600px] md:h-[450px] md:flex-row">
+        <div class="md:w-1/2">
+            <picture>
+                <source media="(min-width:640px)" srcset="../images/image-product-desktop.jpg">
+                <img src="../images/image-product-mobile.jpg" alt="mobile product image">
+            </picture>
+        </div>
+        <div class="flex flex-col min-h-[350px] justify-between px-6 py-7 md:w-1/2 md:px-8 md:py-9">
+            <p class="font-montserrat text-xs text-darkGrayishBlue tracking-wider ">PERFUME</p>
+            <h2 class="font-fraunces text-3xl text-veryDarkBlue leading-8">Gabrielle Essence Eau De Parfum</h2>
+            <p class="font-montserrat text-sm text-darkGrayishBlue ">A floral, solar and voluptuous interpretation
+                composed by Olivier Polge,
+                Perfumer-Creator for the House of CHANEL.</p>
+            <div class="flex flex-row items-center gap-4">
+                <p class="font-fraunces text-3xl text-darkCyan leading-8">$149.99</p>
+                <span class="font-montserrat text-xs leading-6 text-darkGrayishBlue line-through">$169.99</span>
+            </div>
+            <button class="flex flex-row justify-center items-center bg-darkCyan py-3 px-6 rounded-lg gap-2 shadow-sm hover:bg-darkCyanHover">
+                <img src="../images/icon-cart.svg" alt="cart-icon">
+                <span class="font-montserrat font-bold text-white">Add to Cart</span>
+            </button>
+        </div>
+    </div>
+</main>
+<div class="attribution sm:hidden md:block md:mt-[-200px]">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Sérgio Nunes</a>.
+</div>
+</body>
+</html>

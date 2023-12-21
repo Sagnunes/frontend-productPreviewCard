@@ -37,8 +37,8 @@ Mobile view:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git Repository](https://github.com/Sagnunes/frontend-productPreviewCard.git)
+- Live Site URL: [Git Live Page](https://sagnunes.github.io/frontend-productPreviewCard/src/index.html)
 
 ## My process
 

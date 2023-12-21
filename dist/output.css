@@ -674,8 +674,24 @@ video {
   line-height: 2rem;
 }
 
-.tracking-wider{
-  letter-spacing: 0.05em;
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-5{
+  line-height: 1.25rem;
+}
+
+.tracking-\[50px\]{
+  letter-spacing: 50px;
+}
+
+.tracking-\[5px\]{
+  letter-spacing: 5px;
+}
+
+.tracking-\[10px\]{
+  letter-spacing: 10px;
 }
 
 .text-darkCyan{

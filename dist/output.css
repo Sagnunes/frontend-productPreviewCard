@@ -553,29 +553,12 @@ video {
   margin-right: auto;
 }
 
-.mt-0{
-  margin-top: 0px;
-}
-
-.mt-\[-500px\]{
-  margin-top: -500px;
-}
-
-.mt-\[-200px\]{
-  margin-top: -200px;
-}
-
 .flex{
   display: flex;
 }
 
 .h-screen{
   height: 100vh;
-}
-
-.h-fit{
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .min-h-\[350px\]{
@@ -751,14 +734,6 @@ video {
 
   .md\:h-\[450px\]{
     height: 450px;
-  }
-
-  .md\:h-\[200px\]{
-    height: 200px;
-  }
-
-  .md\:h-\[400px\]{
-    height: 400px;
   }
 
   .md\:w-1\/2{
